@@ -266,7 +266,7 @@ def sign(m, d, user, smtp_host, mail_username, mail_password):
 
 def main():
     print('------>>>---->启动中<------<<<----')
-    last_post = 2   # 最后一次签到的日期
+    last_post = 10086   # 最后一次签到的日期
     
     # 读取配置文件
     #with open('config.json', 'r',encoding='UTF-8') as f:
