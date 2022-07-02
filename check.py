@@ -332,8 +332,8 @@ def main():
                         user['name'], t.tm_mon, t.tm_mday))
                     new_list.append(user)
             to_sign_list = new_list
-        # else: 都打完了
-        time.sleep(2)
+        else:   # 全部打卡完毕
+            break
 
 if __name__ == '__main__':
     main()
