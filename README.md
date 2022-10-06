@@ -75,18 +75,16 @@ students里面的stu_number、mail和经纬度是必须的，mail至少明确给
     "smtp_host": "smtp.qq.com",
     "students": [
         {
-            "stu_number": "082010101",
-            "password": "St13456",
-            "mail": "666666@qq.com",
-            "latitude": 39.5655665,
-            "longitude":114.0484894
+            "name": "xxx",
+            "student_id": "082010101",
+            "student_password": "St13456",
+            "receiver_mail": "xxxx@qq.com"
         },
         {
-            "stu_number": "082010103",
-            "password": "St13456",
-            "mail": "",
-            "latitude": 33.5655665,
-            "longitude":115.0484894
+            "name": "xxx",
+            "student_id": "082010103",
+            "student_password": "St13456",
+            "receiver_mail": ""
         }
     ]
 }
@@ -97,20 +95,15 @@ students里面的stu_number、mail和经纬度是必须的，mail至少明确给
 
 ``` json
 {
-    "students": [
+    "mail_username": "xxx@qq.com",
+    "mail_password": "xxx",
+    "smtp_host": "smtp.qq.com",
+    "users": [
         {
-            "stu_number": "082010101",
-            "password": "St13456",
-            "mail": "",
-            "latitude": 39.5655665,
-            "longitude":114.0484894
-        },
-        {
-            "stu_number": "082010103",
-            "password": "St13456",
-            "mail": "",
-            "latitude": 33.5655665,
-            "longitude":115.0484894
+            "name": "xxx",
+            "student_id": "xxxx",
+            "student_password": "xxxx",
+            "receiver_mail": "xxxx@qq.com"
         }
     ]
 }
